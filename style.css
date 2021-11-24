@@ -12,9 +12,9 @@ body{
 .header_brand{
     color: white;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     position: relative;
-    font-size: 18px;
+    font-size: 20px;
     padding: 15px;
 }
 
@@ -30,7 +30,7 @@ body{
     color: white;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     position: relative;
     left: 280px;
 }
@@ -43,7 +43,7 @@ body{
 .nav_icons i{
     position: relative;
     padding:7px 7px;
-    left: 620px;
+    left: 60px;
     background-color: white;
     border-radius: 50%;
     top: 9px;

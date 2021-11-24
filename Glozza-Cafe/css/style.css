@@ -1,0 +1,317 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.head{
+    height: 90px;
+    background-color: #F4F4F4;
+}
+.navbar-brand{
+    margin-right: 0px;
+}
+.navbar-nav a{
+    transition: .8s;
+}
+.icon_fx{
+    transition: .5s;
+    font-size: 22px;
+}
+.lang{
+    font-size: 18px;
+    margin-top: 13px;
+    padding: 4px;
+    border: 1px solid  #F4F4F4 ;
+    background-color:  #F4F4F4;
+}
+.lang1{
+    margin-right: -223px
+}
+.shop{
+    margin-right: 22px;
+    position: relative;
+    top: 7px;
+}
+.icons{
+    margin-right: 20px;
+}
+.glavnaya a{
+    color: #2C2C2C;
+    font-size: larger;
+    font-weight: 400;
+    opacity: 0.7;
+    transform: translateY(0);
+}
+.glavnaya a:hover{
+    color: green;
+    opacity: 0.7;
+}
+.tell a{
+    font-weight: 900;
+}
+.header_img{
+    background-image: url("../img/header1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 580px;
+}
+.dark-overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.yozuv {
+    color: white;
+    padding-top: 70px;
+}
+.yozuv h3{
+    font-size: 57px;
+    font-weight: 700;
+    margin-right: 565px;
+    transition: 1s ease;
+}
+.yozuv h3:hover{
+    color: green!important;
+    transition: 1s ease;
+}
+.yozuv p{
+    margin-left: 122px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.d-flex1{
+    height: 65px;
+    width: 62px;
+    border-radius: 50%;
+    padding:20px 25px 22px;
+    box-shadow: 0px 0px 10px 3px #dcdcdc;
+}
+.col-md-6 h4{
+    color: white;
+    font-size: 19px;
+    margin-left: -90px;
+    font-weight: 500;
+}
+.col-md-6 a{
+    text-decoration: none;
+    margin-left: 128px;
+    margin-top: 85px
+}
+.cakes{
+    margin-top: -10px;
+}
+#menu{
+    height: 1000px;
+}
+.royxat{
+    font-size: 20px;
+    font-weight: 700;
+}
+.royxat a{
+    color: black;
+}
+.food{
+    height: 700px;
+}
+.card{
+    border-radius: 17px;
+    border: 0;
+}
+.card-header{
+    background-color: white;
+}
+.food1{
+    height: 410px;
+}
+.narx{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(19, 175, 89);
+}
+.tugma{
+    margin-top: 52px;
+    margin-left: 509px;
+    font-family: "Franklin Gothic Book";
+}
+.farm{
+    justify-content: center;
+    text-align: center;
+}
+span{
+    font-weight: 600;
+}
+.tugma1{
+    margin: 11px;
+    height: 60px;
+    width: 165px;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.gallery_rek{
+    border-radius: 19px;
+    margin-right: 64px;
+    height: 295px;
+    background-color: rgb(244, 244, 244);
+}
+.gallery_rek1{
+    color: rgb(44, 44, 44);
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.avvalgisi_page{
+    padding: 10px;
+    background-color: #F4F4F4;
+    border-radius: 16px;
+    padding-right: 25px;
+    cursor: pointer;
+    transition: .9s ease;
+}
+.avvalgisi_page:hover{
+    background-color: #00a300;
+}
+.keyingisi_page{
+    cursor: pointer;
+    padding: 10px;
+    background-color:#f4f4f4;
+    border-radius: 16px;
+    padding-left: 25px;
+    transition: .9s ease;
+}
+.keyingisi_page:hover{
+    background-color:  #00a300;
+}
+.pag_num1{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.pag_num2{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.pag_num3{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.input_1{
+    padding: 25px;
+    margin-top: 3px;
+    margin-right: 36px;
+    border-radius: 16px;
+}
+
+.input_2{
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 3px;
+    margin-left: 17px;
+    margin-right: 36px;
+}
+.im_ya{
+    font-weight: 600;
+    margin-left: 5px;
+}
+.im_ya1{
+    font-weight: 600;
+    margin-left: 25px;
+}
+.messages{
+    border: 0;
+    margin-left: 49px;
+    border-radius: 11px;
+    padding: 18px;
+    height: 207px;
+    width: 556px;
+    outline: none;
+    resize: none;
+}
+.img_col{
+    height: 355px;
+    width: 355px;
+    border-radius: 27px;
+}
+.tell_num{
+    color: #4b4b4b;
+    margin-left: 50px;
+    margin-top: 19px;
+    font-size: 18px;
+}
+.tell_num1{
+    color: #4b4b4b;
+    margin-left: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .5s ease;
+}
+.tell_num1:hover{
+    color: #1e7e34;
+}
+.btn_right{
+    border: 0;
+    padding: 23px;
+    border-radius: 35px;
+    margin-top: 45px;
+    margin-left: 70px;
+    transition: .8s ease;
+    font-weight: 700;
+
+}
+.buttom {
+    background: #2C2C2C;
+}
+.buttom h4{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #C4C4C4;
+}
+.pasti{
+    padding: 15px;
+    background-color: currentcolor;
+}
+.pasti h4{
+    color: powderblue;
+    margin-left: 548px;
+    font-weight: 700;
+}
+.vakansiy_img{
+    background-color: #13AF59;
+    padding: 8px;
+    border-radius: 11px;
+    margin-left: 230px;
+}
+.vakansiy_card{
+    background-color: #F4F4F4;
+    margin-right: 590px;
+    margin-left: 94px;
+    height: 350px;
+}
+#rezyume{
+    background-color: #F4F4F4;
+}
+.menu_1{
+    font-size: 18px;
+    color: darkslategray;
+}
+.menu_1:hover{
+    color:#13AF59 ;
+}
