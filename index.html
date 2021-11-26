@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    
+    <div class="head">
     <div class="container">
         <div class="header_brand">MysteryCode</div>
 
@@ -39,9 +39,28 @@
         </div>
     </div>
 
+    <div class="portfolio">
+        <img src="img/pexels-reynaldo-brigworkz-brigantty-747101.jpg" alt="">
+        <div class="btn-port" data-bs-toggle="tooltip" title="Glozza Cafe sayti (  Sayt faqat Desktop versiya uchun !!! )"> <h1><a href="Glozza-Cafe/index.html" target="_blank">Glozza-Cafe</a></h1>
+        </div>
+        <div class="btn-port" data-bs-toggle="tooltip" title="Teamwork.uz sayti (  Sayt faqat Desktop versiya uchun !!! )"> <h1><a href="Teamwork.uz/index.html" target="_blank">Teamwork.uz</a></h1>
+        </div>
+        <div class="btn-port" data-bs-toggle="tooltip" title="Khusanov.uz sayti (  Sayt Desktop va Mobile versiya uchun !!! )"> <h1><a href="Khusanov.uz/index.html" target="_blank">Khusanov.uz</a></h1>
+        </div>
+        <div class="btn-port" data-bs-toggle="tooltip" title="Khusanov.uz sayti (  Sayt Desktop va Mobile versiya uchun !!! )"> <h1><a href="Sirena/index.html" target="_blank">Sirena</a></h1>
+        </div>
+    </div>
     <div>
-        <h1><a href="Glozza-Cafe/index.html">Glozza-Cafe</a></h1>
+    
+
     </div>
 
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
 </body>
 </html>

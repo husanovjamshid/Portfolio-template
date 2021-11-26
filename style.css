@@ -1,21 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-}
+   }
 
 .container{
     display: flex;
-    background-color: blue;
+    
+    background: url(./img/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
     
 }
 
 .header_brand{
     color: white;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     position: relative;
-    font-size: 20px;
+    font-size: 22px;
     padding: 15px;
+    left: 50px;
+    top: 20px;
 }
 
 .container ul li{
@@ -30,9 +33,10 @@ body{
     color: white;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     position: relative;
     left: 280px;
+    top: 20px;
 }
 
 .container ul li a:hover{
@@ -43,9 +47,78 @@ body{
 .nav_icons i{
     position: relative;
     padding:7px 7px;
-    left: 610px;
+    left: 550px;
     background-color: white;
     border-radius: 50%;
-    top: 9px;
+    top: 20px;
     margin: 0 5px;
 }
+
+.nav_icons i:nth-child(1){
+    color: #00acee;
+}
+
+.nav_icons i:nth-child(2){
+    color: #00acee;
+}
+
+.nav_icons i:nth-child(3){
+    color: red;
+}
+
+
+.portfolio img{
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background: #1111;
+ }
+
+.portfolio a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    
+}
+
+.portfolio a:hover{
+    color: red;
+    border: 2px solid red;
+    transition: 1s;
+}
+
+
+
+ .btn-port{
+    top: 200px;
+    position: absolute;
+    left: 500px;
+    padding: 0 20px;
+}
+
+.btn-port:nth-child(1){
+    position: absolute;
+    top: 300px;
+    padding: 0 20px;
+}
+
+.btn-port a{
+    font-family: sans-serif;
+    
+}
+
+.btn-port:nth-child(2){
+    position: absolute;
+    top: 300px;
+    padding: 0 20px;
+}
+
+.btn-port:nth-child(3){
+    position: absolute;
+    top: 400px;
+    padding: 0 20px;
+}
+
