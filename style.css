@@ -5,8 +5,8 @@ body{
 
 .container{
     display: flex;
-    
-    background: url(./img/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
+    background-color: #1111;
+    background: url(./img/bg.jpg);
     
 }
 
@@ -66,7 +66,6 @@ body{
     color: red;
 }
 
-
 .portfolio img{
     width: 100%;
     height: 95vh;
@@ -96,7 +95,7 @@ body{
     top: 200px;
     position: absolute;
     left: 500px;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .btn-port:nth-child(1){
@@ -119,6 +118,11 @@ body{
 .btn-port:nth-child(3){
     position: absolute;
     top: 400px;
+    padding: 0 15px;
+}
+.btn-port:nth-child(4){
+    position: absolute;
+    top: 500px;
     padding: 0 20px;
 }
 
